@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <!-- Container Superior onde ficará o logotipo -->
+    <div class="container-fluid text-center">
+        <br>
+        <div class="logotipo">
+          <img src="img/logotipo.jpg" width="100">
+      </div>
+    </div>
+      
+      <!-- Barra de Navegação -->
+      <nav class="navbar navbar-expand-sm navbar-dark sticky-top" style="margin-bottom: 30px; background-color: rgb(164, 177, 141)">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="formLogin.html">
+            <img src="img/usericon.png" width="40px">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Início</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="revistas.html">Revistas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Dropdown</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Link</a></li>
+                  <li><a class="dropdown-item" href="#">Another link</a></li>
+                  <li><a class="dropdown-item" href="#">A third link</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="text" placeholder="Search">
+              <button class="btn btn-dark" type="button">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      
+    <!-- Div que abrigará o conteúdo da página -->
+    
+    <div class="container text-center" style="margin-top:30px; margin-bottom:100px;">
+
+        <div class="row">
+
+            <div class="col-sm-3"></div>
+
+            <div class="col-sm-6">
+
+                <!-- Carousel -->
+                <div id="demo" class="carousel slide" data-bs-ride="carousel" style="margin:auto;">
+
+                    <!-- Indicators/dots -->
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                    </div>
+                
+                    <!-- The slideshow/carousel -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/skin1.jpg" alt="skin1 Foto 01" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/skin2.jpg" alt="Skin 2 - Foto 02" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/skin3.jpg" alt="Skin3 - Foto 03" class="d-block w-100">
+                        </div>
+                    </div>
+                
+                    <!-- Left and right controls/icons -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev" style="background-color:  black;">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next" style="background-color:  black;">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+                <h2>Skin 1</h2>
+                <h3>R$ 99,00</h3>
+                <br>
+                <a href="#realizarCompra.html" class="btn text-light" style="background-color:rgb(164, 177, 141) ;">Comprar</a>
+            
+            </div>
+
+            <div class="col-sm-3"></div>
+        
+        </div>
+
+    </div>
+
+    <div class="container-fluid fixed-bottom bg-dark text-white text-center">
+        Sistema Web desenvolvido por Amanda
+    </div>
+
+</body>
+</html>

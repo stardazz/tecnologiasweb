@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <!-- Container Superior onde ficará o logotipo -->
+    <div class="container-fluid text-center">
+        <br>
+        <div class="logotipo">
+          <img src="img/logotipo.jpg" width="100">
+      </div>
+    </div>
+      
+    <!-- Barra de Navegação -->
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top" style="margin-bottom: 30px; background-color: rgb(164, 177, 141);">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="formLogin.html">
+          <img src="img/usericon.png" width="40px">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="revistas.html">Revistas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="javascript:void(0)">Comunidade</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Guarda-roupa</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Superiores</a></li>
+                <li><a class="dropdown-item" href="#">Inferiores</a></li>
+                <li><a class="dropdown-item" href="#">Acessórios</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="text" placeholder="Search">
+            <button class="btn btn-dark" type="button">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Div que abrigará o conteúdo da página -->
+    <div class="container" style="margin-bottom:100px; margin-top: 30px;">
+      
+        <table class="table table-dark table-striped">
+            <thead>
+              <tr>
+                <th>Revistas da Comunidade</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><img src="img/revista1.jpg"></td>
+              </tr>
+
+              <tr>
+                <td><img src="img/revista2.jpg"></td>
+                
+              </tr>
+             
+              <tr>
+                <td><img src="img/revista3.jpg"></td>
+               
+              </tr>
+              <tr>
+                <td><img src="img/revista4.jpg"></td>
+                
+              </tr>
+              <tr>
+                <td><img src="img/revista5.jpg"></td>
+               
+              </tr>
+              <tr>
+                <td><img src="img/revista6.jpg"></td>
+              
+              </tr>
+              <tr>
+                <td><img src="img/revista7.jpg"></td>
+               
+              </tr>
+              <tr>
+                <td><img src="img/revista8.jpg"></td>
+                
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        
+
+    <!--rodapé-->
+    <div class="container-fluid fixed-bottom bg-dark text-white text-center">
+        Sistema Web desenvolvido por Amanda
+    </div>
+
+</body>
+</html>

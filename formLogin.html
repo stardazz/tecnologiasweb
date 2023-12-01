@@ -34,23 +34,23 @@
                 <a class="nav-link" href="index.html">Início</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="formLogin.html">Login</a>
+                <a class="nav-link" href="revistas.html">Revistas</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="javascript:void(0)">Link</a>
+                <a class="nav-link" href="javascript:void(0)">Comunidade</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Dropdown</a>
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Guarda-roupa</a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Link</a></li>
-                  <li><a class="dropdown-item" href="#">Another link</a></li>
-                  <li><a class="dropdown-item" href="#">A third link</a></li>
+                  <li><a class="dropdown-item" href="#">Superiores</a></li>
+                  <li><a class="dropdown-item" href="#">Inferiores</a></li>
+                  <li><a class="dropdown-item" href="#">Acessórios</a></li>
                 </ul>
               </li>
             </ul>
             <form class="d-flex">
               <input class="form-control me-2" type="text" placeholder="Search">
-              <button class="btn btn-primary" type="button">Search</button>
+              <button class="btn btn-dark" type="button">Search</button>
             </form>
           </div>
         </div>
@@ -58,21 +58,42 @@
       
     <!-- Div que abrigará o conteúdo da página -->
     
-    <div class="container" style="margin-bottom:100px;">
-      
-        <form action="/action_page.php" method="post">
-            <div class="form-floating mb-3 mt-3">
-              <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
-              <label for="email">Email ou Nome de Usuário</label>
-            </div>
-            <div class="form-floating mt-3 mb-3">
-              <input type="text" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
-              <label for="pwd">Senha</label>
-            </div>
-            <button type="submit" class="btn text-light" style="background-color: rgb(164, 177, 141);">Login</button>
-          </form>
+    <div class="container text-center" style="margin-top:30px; margin-bottom:100px;">
 
-    </div>
+      <h1>Área de Acesso ao Sistema:</h1>
+
+      <div class="row">
+
+          <div class="col-sm-3"></div>
+
+          <div class="col-sm-6">
+              <form action="#" method="POST" class="was-validated" enctype="multipart/form-data">
+
+                  <div class="container text-center">
+                      <div class="form-floating mb-3 mt-3">
+                          <input type="email" class="form-control" id="emailUsuario" placeholder="Informe o seu email" name="emailUsuario" required>
+                          <label for="email">Email</label>
+                      </div>
+                      
+                      <div class="form-floating mt-3 mb-3">
+                          <input type="password" class="form-control" id="senhaUsuario" placeholder="Informe a sua senha" name="senhaUsuario" required>
+                          <label for="pwd">Senha</label>
+                      </div>
+                  </div>
+      
+                  <button type="submit" class="btn btn-primary">Login</button>
+              </form>
+              <br>
+              <p>
+                  Ainda não possui cadastro? <a href="formUsuario.html" title="Cadastrar-se">Clique aqui!</a>&nbsp<i class="bi bi-emoji-smile"></i>
+              </p>
+          </div>
+
+          <div class="col-sm-3"></div>
+              
+      </div>
+  
+  </div>
 
     <div class="container-fluid fixed-bottom bg-dark text-white text-center">
         Sistema Web desenvolvido por Amanda
